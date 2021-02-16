@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+
+    --gray-one: #C4C4C4;
+    --blue-one: #447EED;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
