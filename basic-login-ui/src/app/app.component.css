@@ -1,0 +1,8 @@
+#shell-wrapper{
+    height: 100vh;
+    width: 100vw;
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
