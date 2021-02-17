@@ -31,4 +31,6 @@ input{
     min-height: 50px;
 }
 
-
+::placeholder{
+    opacity: .5;
+}
