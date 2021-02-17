@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faUser } from '@fortawesome/free-solid-svg-icons'
+import { faUser, IconDefinition } from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'app-circle-icon',
@@ -10,7 +10,7 @@ export class CircleIconComponent implements OnInit {
 
   constructor() { }
 
-  faUser = faUser;
+  faUser: IconDefinition = faUser;
 
   ngOnInit(): void {
   }
