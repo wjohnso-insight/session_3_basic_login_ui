@@ -1,15 +1,19 @@
-<div class="flex-center" id="login-form-wrapper">
+<div class="flex-center" id="login-form-wrapper" role="form">
+    <label for="username-input">Username</label>
     <input 
         type="text" 
         name="username-input" 
         placeholder="Username"
         [(ngModel)]="username"
+        id="username-input"
     >
+    <label for="password-input">Password</label>
     <input 
         type="password" 
         name="password-input" 
         placeholder="Password"
         [(ngModel)]="password"
+        id="password-input"
     >
     <button 
         type="submit" 
@@ -17,6 +21,7 @@
         class="submit-button" 
         id="form-submit"
         (click)="submitForm()"
+        role="button"
     >Sign In
     </button>
 </div>
