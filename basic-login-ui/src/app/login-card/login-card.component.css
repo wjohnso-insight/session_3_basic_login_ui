@@ -1,6 +1,14 @@
 .card{
-    border: solid thin black;
     height:  515px;
     width: 350px;
     background-color: var(--gray-one);
+    border-radius: 10px;
+}
+
+.card-content{
+    width: 100%;
+}
+
+#login-card-wrapper{
+    flex-direction: column;
 }

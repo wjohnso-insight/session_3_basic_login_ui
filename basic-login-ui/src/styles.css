@@ -7,8 +7,23 @@
     --blue-one: #447EED;
 }
 
+input{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
 .flex-center{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.submit-button{
+    background-color: var(--blue-one);
+    outline: none;
+    border: none;
+    border: 5px;
+}
+
+

@@ -1,0 +1,6 @@
+#wrapper{
+    height: 100px;
+    width: 100px;
+    background-color: var(--blue-one);
+    clip-path: circle(50% at 50% 50%);
+}
