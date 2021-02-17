@@ -9,10 +9,13 @@ export class LoginFormComponent implements OnInit {
 
   constructor() { }
 
+  username = '';
+  password = '';
+
   ngOnInit(): void {
   }
   
   submitForm(): void{
-    console.log('Form submitted...')
+    console.log(`${this.username}, ${this.password}`)
   }
 }
