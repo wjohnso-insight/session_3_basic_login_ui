@@ -11,6 +11,7 @@ input{
     border-radius: 5px;
     outline: none;
     border: none;
+    padding-left: 10px;
 }
 
 .flex-center{
@@ -24,6 +25,7 @@ input{
     outline: none;
     border: none;
     border: 5px;
+    margin-top: 10px;
 }
 
 
