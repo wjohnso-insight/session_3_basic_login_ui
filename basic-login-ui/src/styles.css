@@ -33,4 +33,5 @@ input{
 
 ::placeholder{
     opacity: .5;
+    font-size: 12pt;
 }
