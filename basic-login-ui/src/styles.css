@@ -2,6 +2,7 @@
     box-sizing: border-box;
     height: 100%;
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 
     --gray-one: #C4C4C4;
     --blue-one: #447EED;
