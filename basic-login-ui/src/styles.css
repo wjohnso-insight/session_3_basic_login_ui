@@ -29,6 +29,7 @@ input{
     border: 5px;
     margin-top: 10px;
     min-height: 50px;
+    cursor: pointer;
 }
 
 ::placeholder{
