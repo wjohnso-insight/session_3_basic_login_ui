@@ -6,6 +6,7 @@ import { LoginCardComponent } from './login-card/login-card.component';
 import { CircleIconComponent } from './circle-icon/circle-icon.component';
 import { LoginFormComponent } from './login-form/login-form.component';
 import { CardHeaderComponent } from './card-header/card-header.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CardHeaderComponent } from './card-header/card-header.component';
     CardHeaderComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
