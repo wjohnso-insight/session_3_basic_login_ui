@@ -12,4 +12,5 @@
 
 #login-card-wrapper{
     flex-direction: column;
+    justify-content: flex-start;
 }
